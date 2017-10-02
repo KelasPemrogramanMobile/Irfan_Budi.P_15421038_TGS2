@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_utama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="irfan.tugas_2.MenuUtama">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="BIODATA MAHASISWA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:layout_weight="0.07"/>
+
+        <EditText
+            android:hint="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama" />
+
+        <EditText
+            android:hint="Tgl Lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tgllahir"/>
+        <EditText
+            android:hint="NPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/npm"
+            android:layout_weight="0.03"/>
+
+        <EditText
+            android:hint="Fakultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fakultas"/>
+
+        <EditText
+            android:hint="Prodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/prodi"/>
+
+        <EditText
+            android:hint="Agama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/agama"/>
+
+        <Button
+            android:text="ambil data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnambildata" />
+    </LinearLayout>
+</RelativeLayout>
